@@ -1,0 +1,49 @@
+
+.header{
+    overflow: hidden;
+  background-color: grey;
+  
+}
+
+h2{
+    display: inline-block;
+   float: right;
+}
+
+.sidenav {
+    margin-top: 132px;
+    width: 200px;
+    height: 80%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-left: 10px;
+    
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+
+  .content {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    padding: 0px 10px;
+    display: flex;
+  }
+
+  h3{
+    text-align:center;
+    font-size: 40px;
+  }
+
+  .contact{
+      margin-left: 200px;
+      text-align: right;
+  }
