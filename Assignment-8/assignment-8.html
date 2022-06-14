@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Layout for client form</title>
+    <link rel="stylesheet" href="assignment-8.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul>
+            <img src="assets/logo.png" alt="" class="logo">
+            <li class="item">Accounts</li>
+            <li class="item">Clientss</li>
+            <li class="item">Documents</li>
+            <li class="item">Reports</li>
+            <select name="acc" id="acc" class="dropdown">
+                <option value="accounting">Accounting</option>
+            </select>
+            <select name="def" id="def" class="dropdown">
+                <option value="defination">Defination</option>
+            </select>
+            <div class="header-right">
+                <img src="assets/icon.png" alt="">
+                <img src="assets/icon1.png" alt="">
+                <ul>
+                    <li class="dropdown1">RK</li>
+                </ul>
+            </div>
+        </ul>
+    </div>
+
+    <div class="container">
+        <ul>
+            <li><span> Cients</span> / Add New Clients</li>
+        </ul>
+        <h3>Add New Client -vbng</h3>
+    </div>
+    <hr>
+
+    <div class="row">
+
+        <div class="column1">
+            <hr>
+
+            <p>Contact</p>
+            <input type="radio" id="info" name="contact" value="info" checked>
+            <label for="info">Client Information</label><br><br>
+            <input type="radio" id="point" name="contact" value="contact">
+            <label for="point">Main Point of Contact</label><br>
+            <p>Settings</p>
+            <input type="radio" id="config" name="settings" value="config">
+            <label for="config">Accounting Configuration</label><br><br>
+            <input type="radio" id="acc" name="settings" value="acc">
+            <label for="acc">Bank Accounts</label><br><br>
+            <input type="radio" id="cost" name="settings" value="cost">
+            <label for="cost">Costs & Fees</label><br><br>
+            <input type="radio" id="invoice" name="settings" value="invoice">
+            <label for="invoice">Invoices</label><br><br>
+            <input type="radio" id="pif" name="settings" value="pif">
+            <label for="pif">PIF Option</label><br><br>
+            <input type="radio" id="auto" name="settings" value="auto">
+            <label for="auto">Filling and Judgment Automation</label><br><br>
+
+
+        </div>
+        <div class="column2">
+
+            <div class="main">
+                <h2>Client Information</h2>
+                <p>Indicate if the client is bussiness or individual.</p>
+                <div>
+                    <input type="radio" name="bussiness" id="bussiness" checked>
+                    <label for="bussiness">Bussiness</label>
+                    <input type="radio" name="individual" id="individual">
+                    <label for="individual">Individual</label><br>
+                </div>
+                <hr>
+
+                <h4>Enter the Client's Name.</h4>
+                <div class="input">
+                    <div>
+                        <label for="name">Client's Name<span style="color: red;">*</span></label><br>
+                        <input type="text" name="name" id="name" value="vbng">
+                    </div>
+                    <div>
+                        <label for="bussiness">Doing Bussiness As</label><br>
+                        <input type="text" name="bussiness" id="bussiness" value="" placeholder="Enter DBA or flctitious name">
+                    </div>
+
+                </div>
+                <hr>
+
+                <h4>Create a Client ID, enter their FEIN nad select the client type.</h4>
+                <div class="input2">
+                    <div>
+                        <label for="name">Client ID(limit of 10 characters)<span
+                                style="color: red;">*</span></label><br>
+                        <input type="number" name="id" id="id" value="" placeholder="Enter Client ID">
+                    </div>
+                    <div>
+                        <label for="fein">FEIN</label><br>
+                        <input type="password" name="fein" id="fein" value="" placeholder="Enter FEIN">
+                        <i class="fa fa-eye-slash icon2"></i>
+                    </div>
+                    <div>
+                        <label for="type">Client Type<span style="color: red;"> *</span></label><br>
+                        <select name="type" id="type" class="drop">
+                            <option value="type">Select Type</option>
+                        </select>
+                    </div>
+
+                </div>
+                <hr>
+
+
+                <h4>Assign 1 or more sets. Use sets to group like clients together and pull reports for all clients in
+                    that set(optional).</h4>
+                <div class="input2">
+                    <div>
+                        <label for="code">Client set code</label><br>
+                        <select name="code" id="code" class="input2-1">
+                            <option value="code">Select client set code</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="code"></label><br>
+                        <input type="number" name="code" id="code" value="" placeholder="Manage code">
+                    </div>
+
+
+                </div>
+                <hr>
+
+                <h4>Assign 1 or more sets. Use sets to group like clients together and pull reports for all clients in
+                    that set(optional).</h4>
+                <div class="input3">
+
+                    <div>
+                        <label for="attention">Attention</label><br>
+                        <input type="text" name="attention" id="attention" value="" placeholder="Enter address"><br>
+                        <label for="address">Stret Address</label><br>
+                        <input type="text" name="address" id="address" value="" placeholder="Enter stret address"><br>
+                        <label for="address">Stret Address</label><br>
+                        <input type="text" name="address" id="address" value=""
+                            placeholder="Enter apartment, suite, unite floor, building etc.">
+                    </div>
+
+                </div>
+                <div class="input">
+                    <div>
+                        <label for="code">Zip code/ Postal Code</label><br>
+                        <input type="number" name="code" id="code" value="" placeholder="00000">
+
+                    </div>
+                    <div>
+                        <label for="city">City</label><br>
+                        <input type="text" name="city" id="city" value="" placeholder="Enter City">
+                    </div>
+                </div>
+
+                <div class="input">
+                    <div>
+                        <label for="state">State / Province</label><br>
+                        <input type="ext" name="state" id="state" value="" placeholder="Enter state/province">
+
+                    </div>
+                    <div>
+                        <label for="country">Country</label><br>
+                        <select name="country" id="country" class="input2-1-1">
+                            <option value="country">Select country</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input2">
+                    <div>
+                        <label for="code">Country</label><br>
+                        <select name="code" id="code" class="input2-1">
+                            <option value="code">Select country code</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="code"></label><br>
+                        <input type="number" name="code" id="code" value="" placeholder="Manage code">
+                    </div>
+                </div>
+
+                <div class="input3">
+
+                    <div>
+                        <label for="time">Time Zone</label><br>
+                        <select name="time" id="time" class="input2-1-2">
+                            <option value="time">Select time zone</option>
+                        </select>
+                    </div>
+
+                </div>
+                <hr>
+
+                <h4>Enter a website link(optional)</h4>
+                <div class="input3">
+
+                    <div>
+                        <label for="link">Website link</label><br>
+                        <input type="text" name="link" id="link" value="" placeholder="Enter URL"><br>
+
+                    </div>
+
+                </div>
+                <hr>
+
+                <h4 style="margin-bottom: 0px;">Choose pre-set color(optional)</h4>
+                <div class="input3">
+                    <p style="margin-top: 0px;">Assigning colors to yoyr client's can help to visually group them together or quickly distinguish them from one another.</p>
+
+                    <div class="color1"> 
+                        <label for="color">Pre-set color</label><br>
+                       
+                       <div class="color">
+                        <div class="square1">
+                        </div>
+                        <div class="square2">
+                        </div>
+                        <div class="square3">
+                        </div>
+                        <div class="square4">
+                        </div>
+                        <div class="square5">
+                        </div>
+                        <div class="square6">
+                        </div>
+                        <div class="square7">
+                        </div>
+                        <div class="square8">
+                        </div>
+                        <div class="square9">
+                        </div>
+                        <div class="square10">
+                        </div>
+                        <div class="square11">
+                        </div>
+                    </div>
+                    </div>
+                <hr>
+                <h4>Enter notes(optional)</h4>
+                <div class="input3-1">
+
+                    <div>
+                        <label for="note">Notes</label><br>
+                        <input type="text" name="note" id="note" value="" placeholder="Enter any comments or notes"><br>
+
+                    </div>
+
+                </div>
+                <hr>
+
+                <h4>Enter additional information by creating your own fields for client accounts(optional)</h4>
+                <div class="input3">
+
+                    <div>
+                        <label for="user">Custom User Field</label><br>
+                        <input type="text" name="user" id="user" value="" placeholder=""><br>
+
+                    </div>
+
+                </div>
+                <hr>
+                <div class="button">
+
+                    <div>
+                        <button type="reset" class="btn1">Clear Page</button>
+                        <button type="next" class="btn2">Next -></button>
+                    </div>
+
+                </div>  
+
+                </div>
+                <hr>
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

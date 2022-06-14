@@ -1,0 +1,371 @@
+body{
+    margin: 20px;
+}
+.header {
+    background-color: black;   
+    height: auto; 
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .header img {
+    height: 20px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+  }
+ 
+  .header-right {
+      float: right;
+
+}
+
+  .dropdown{
+      font-size: 15px;
+      margin: 15px;
+    
+  }
+
+  option{
+    border: none;
+    box-shadow: none ;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+      font-size: 20px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+  .header-right img{
+      height: 20px;
+      width: 20px;
+      margin-left: 0px;
+  }
+
+  .user{
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid;
+    height: 40px;
+    width: 40px;
+     
+  }
+
+  .user p{
+      font-size: 20px;
+      color: white;
+  }
+
+  .dropdown1{
+    font-size: 20px;
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+  background-color: rgb(0, 183, 255);
+}
+
+.container ul{
+    background-color: white;
+}
+.container ul li{
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.container ul li span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.container h3{
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+hr{
+    height: 5px;
+    background-color: rgb(223, 215, 215);
+    border: 0px;
+}
+
+.row{
+
+
+}
+
+.column1{
+    float: left;
+    width: 30%;
+    height: 400px; 
+    background-color: white;
+    margin-top: 0px;
+}
+ .column1 input{
+    margin-left: 100px;
+
+ }
+
+ .column1 p{
+     margin-left: 90px;
+ }
+.column2{
+    float: left;
+    width: 70%;
+    height: 600px; 
+}
+
+.row hr{
+    height: 300px;
+    border: 0px;
+    background-color: rgb(223, 215, 215);
+    width: 5px;
+    float: right;
+    margin-top: -10px;
+}
+
+.main{
+    margin-left: 30px;
+}
+
+.main hr{
+    height: 2px;
+    width: 890px;
+    margin-top: 30px;
+}
+
+.input{
+    display: flex; 
+
+}
+
+.input input{
+    height: 30px;
+    width: 360px;
+    margin-right: 50px;
+    background-color: rgb(245, 239, 239);
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.input2{
+  display: flex;
+}
+.input2 input{
+  height: 30px;
+  width: 220px;
+  margin-right: 50px;
+  background-color: rgb(245, 239, 239);
+  border: 2px solid rgb(245, 239, 239);
+  border-radius: 5px;
+}
+
+.drop{
+  height: 30px;
+  width: 220px;
+  margin-left: 0px;
+  background-color: rgb(245, 239, 239);
+  border: 2px solid rgb(245, 239, 239);
+  border-radius: 5px;
+  margin-top: 0px;
+
+}
+.icon2{
+  float: right;
+  margin-left: -30px;
+  margin-top: 10px;
+  }
+
+  .input2-1{
+    height: 30px;
+    width: 500px;
+    margin-right: 50px;
+    background-color: rgb(245, 239, 239);
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 5px;
+  }
+
+  .input3 input{
+    height: 30px;
+    width: 770px;
+    margin-right: 50px;
+    background-color: rgb(245, 239, 239);
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .input2-1-1{
+    height: 30px;
+    width: 360px;
+    margin-right: 50px;
+    background-color: rgb(245, 239, 239);
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 5px;
+  }
+
+  .input2-1-2{
+    height: 30px;
+    width: 770px;
+    margin-right: 50px;
+    background-color: rgb(245, 239, 239);
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 5px;
+  }
+  .color1{
+    background-color: rgb(201, 192, 192);
+     padding-bottom: 10px;
+     width: 770px;
+  }
+  .color{
+    display: flex;
+    width: 770px;
+  }
+
+  .square1 {
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .square2 {
+    height: 30px;
+    width: 30px;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square3 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square4 {
+    height: 30px;
+    width: 30px;
+    background-color: orangered;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square5 {
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square6 {
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square7 {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square8 {
+    height: 30px;
+    width: 30px;
+    background-color:coral;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square9 {
+    height: 30px;
+    width: 30px;
+    background-color: purple;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square10 {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .square11 {
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .input3-1 input{
+    height: 70px;
+    width: 770px;
+    margin-right: 50px;
+    background-color: rgb(245, 239, 239);
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .button{
+    display: flex;
+    float: right;
+  }
+
+  .btn1{
+    border: 0px;
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+    margin: 10px;
+  }
+
+  .btn2{
+    border: 0px;
+    background-color: rgb(47, 187, 47);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: gray;
+  }
