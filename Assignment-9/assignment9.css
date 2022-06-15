@@ -1,0 +1,102 @@
+body{
+    margin:0px;
+}
+
+.head-right{
+    float: right;
+}
+.content{
+}
+.content h1{
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    margin: 30px;
+}
+
+.button{
+    float: left;
+    display: flex;
+    margin-left: 150px;
+}
+
+.btn1{
+    margin: 30px;
+}
+
+.btn2{
+margin-left: 650px;
+height: 50px;
+width: 100px;
+margin-top: 30px;
+}
+
+.main{
+margin-top: 100px;
+background-image: url('assets/bg.jpg');
+height: 500px;
+width: 100%;
+}
+
+.main-content{
+position: absolute;
+color: white;
+margin: 50px;
+text-align: justify;
+width: 400px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(238, 232, 232);
+    color: black;
+    display: flex;
+    padding: 20px;
+  }
+  .logo1{
+    height:200px;
+    width:300px;
+    align: left;
+    margin-left: 0;
+  }
+  
+  .links{
+  margin-left: 300px;
+  }
+  
+  footer a{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+  
+  }
+  
+  .address{
+    margin-left: 300px;
+    }
+  
+    .address1{
+      
+      text-align: left;
+      width: 300px;
+      font-size: 20px;
+    }
+  
+    .icon{
+      display: inline-flex;
+      font-size: 50px;
+      }
+    
+      i{
+        padding: 10px;
+  
+      }
